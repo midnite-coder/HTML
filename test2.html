@@ -1,0 +1,91 @@
+<DOCTYPE html>
+<html>
+<title>Survey Form </title>
+<style>
+
+h1{text-align:left;}
+
+body{background-color:lavender;
+font-size:30px;
+}
+
+
+</style>
+<body>
+
+<h1>Survey Form on Houses</h1>
+
+<form>
+
+<fieldset>
+<legend><strong>Question 1:</strong> Enter Your Name? </legend>
+<input type="text" placeholder="Please Enter Your Name Here" required style="width:500px;height:50px;font-size:25px;">
+</fieldset>
+
+<fieldset>
+<legend><strong>Question 2:</strong> Enter Email-id </legend>
+<input type="email" placeholder="Enter Valid Email Here" required style="width:500px;height:50px;font-size:25px;">
+</fieldset>
+
+<fieldset>
+<legend><strong>Question 3:</strong> Enter your Phone Number </legend>
+<input type="number" min="1000000000" max="9999999999" placeholder="Enter Your Phone Number Here" required style="width:500px;height:50px;font-size:25px;">
+</fieldset>
+
+<fieldset>
+<legend><strong>Question 4:</strong> Select your gender </legend>
+<label for="male">
+<input id="male" type="radio" value="male" name="gender" checked>Male</label><br>
+<label for="female">
+<input id="female" type="radio" value="female" name="gender">Female</label><br>
+<label for="other">
+<input id="other" type="radio" value="other" name="gender">Other</label><br>
+</fieldset>
+
+<fieldset>
+<legend><label for="bhk"><strong>Question 5:</strong> Enter the BHK of your house:</label></legend>
+
+<select name="bhk" id="bhk" style="width:200px;height:50px;font-size:25px;">
+  <option value="1 BHK">1 BHK</option>
+  <option value="2 BHK">2 BHK</option>
+  <option value="3 BHK">3 BHK</option>
+  <option value="4 BHK">4 BHK</option>
+  <option value="5 BHK">5 BHK</option>
+</select>
+</fieldset>
+
+<fieldset>
+<legend><strong>Question 6:</strong> What are the feature(s) included with your house? </legend>
+<label for="garden">
+<input id="garden" type="checkbox" value="garden" name="features">Garden</label><br>
+<label for="gym">
+<input id="gym" type="checkbox" value="gym" name="features">Gym</label><br>
+<label for="club-house">
+<input id="club-house" type="checkbox" value="club-house" name="features">Club House</label><br>
+<label for="swimming">
+<input id="swimming" type="checkbox" value="swimming" name="features">Swimming Pool</label><br>
+<label for="court">
+<input id="court" type="checkbox" value="court" name="features">Tennis/Badminton Court</label><br>
+</fieldset>
+
+<fieldset>
+<legend><strong>Question 7:</strong> Select your rent range</legend>
+<label for="0-20k">
+<input id="0-20k" type="radio" value="0-20k" name="features" checked>Rs.0 to Rs.20,000</label><br>
+<label for="20k-1lakh">
+<input id="20k-1lakh" type="radio" value="20k-1lakh" name="features">Rs.20,000 to Rs.1,00,000</label><br>
+<label for="1lakh-20lakh">
+<input id="1lakh-20lakh" type="radio" value="1lakh-20lakh" name="features">Rs.1,00,000 to Rs.20,00,000</label><br>
+<label for="above 20lakh">
+<input id="above 20lakh" type="radio" value="above 20lakh" name="features">Above Rs.20,00,000</label><br>
+</fieldset><br>
+
+<textarea name="message" rows="5" cols="100" style="font-size:25px;">
+Any additional feature(s) of your house(optional)
+</textarea><br><br>
+
+<button type="submit" style="width:200px;height:50px;font-size:25px;">Submit Form</button>
+
+</form>
+</body>
+</html>

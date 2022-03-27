@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<title>Product Landing Page </title>
+<style>
+
+#img{width:900px;
+height:400px;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+display: block;}
+
+body {
+  background-image: url('https://i.pinimg.com/originals/14/76/06/147606621136f34ba6767e7cc17a63c2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.text{
+  background-color: black;
+  text-align:left;
+  position: fixed;
+  font-size: 20px;
+  top:0;
+  right:0;
+  left:0;
+  height: 40px;
+  color:gold;
+}
+.box{
+  border-style:solid;
+  border-color:yellow;
+  border-width:5px;
+}
+.gold{
+  background-color: black;
+  opacity:0.9;
+  height:535px;
+}
+.column {
+  float: left;
+  width: 45%;
+  padding: 5px;
+}
+.product{
+  float: left;
+  height:200px;
+  width: 200px;
+}
+video {
+  display: block;
+  margin: auto;
+}
+h1{
+  color:yellow;
+  text-shadow: 4px 4px black;
+  text-align: center;
+  font-size: 60px;
+}
+.flex-container {
+  display: flex;
+  left:0;
+  padding:10px;
+}
+</style>
+<body >
+<div class="text"><a href="#">Home</a>      |      <a href="#vid">Product Video</a>    |     <a href="#form">Costumer Query</a>   </div>
+
+<image src="https://cdn.freebiesupply.com/logos/large/2x/harry-potter-logo-png-transparent.png" id="img"><br>
+
+<h1 >Kano Harry Potter Wand Coding Kit</h1><br>
+
+<div>
+    <image src="https://media1.popsugar-assets.com/files/thumbor/FD5wqbBTigpe9fblmocj9AlvD6M/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2018/08/22/743/n/24155406/bd32bdbfa82c28d8_KANO-CODINGWAND-PR-BOX_Large_/i/Kano-Harry-Potter-Wand-Coding-Kit.jpg" style="float:left;height:550px;width:800px;">
+    <div class="column box gold"  style="color:gold;float:right;font-size:50px;text-align:center;"><p style="font-size:50px;">Price:$70<br><button type="button" Style="font-size:30px;background-color:black;color:yellow;"><strong>Buy Now</strong></button><br></p><p style="font-size:20px;">This will ridirect you to the billing page</p></div>
+</div><br><hr>
+<div class="flex-container" style="width:650px;height:500px;">
+  <image src="https://kanome-cms-media-production.kano.me/media/components/80535069-8d50-4baf-aa11-74aeff43d00d.svg" >
+  <image src="https://kanome-cms-media-production.kano.me/media/components/0531b37e-c6f0-49ce-a145-236aaac59428.svg" >
+  <image src="https://kanome-cms-media-production.kano.me/media/components/2f1bc01c-1ead-4e7e-93fb-8774c3877851.svg" >
+  <image src="https://kanome-cms-media-production.kano.me/media/components/8797bb34-0b71-46de-b3d1-c38d7fa0027c.svg" >
+</div>
+<hr><br>
+<video width="1200" height="400" controls id="vid">
+  <source src="https://www.youtube.com/watch?v=lRWub7BY-I0" type="video/mp4">
+    <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+<hr>
+<form style="text-align:center;" id="form" action="https://www.freecodecamp.com/email-submit">
+  <p style="font-size:20px;color:gold;">For further queries click <a href="#">here</a></p>
+  <div style="font-size:20px;color:gold;">Enter your email-id to stay updated</div>
+  <input type="email" placeholder="Enter your Email-id here"  style="width:200px;height:30px;font-size:15px;"><br>
+  <button type="Submit"  style="width:80px;height:30px;font-size:15px;">Submit</button>
+</form>
+
+</div>
+</body>
+</html>

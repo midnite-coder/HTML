@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<title>Personal Portfolio </title>
+<style>
+#welcome-section{
+ color: white;
+ text-align:center;
+ font-family: cursive;
+ font-size: 60px;
+ text-shadow: 5px 5px 6px #000000;
+}
+#navbar{
+  background-color: #333;
+  overflow: hidden;
+  left:0;
+  right:0;
+}
+#navbar a{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+#navbar a:hover {
+  background-color: #bab56c;
+  color: black;
+}
+
+.box {
+  background: rgba(124,252,0, 0.2);
+  border: 5px solid white;
+  color: white;
+  font-family: cursive;
+  font-size: 30px;
+  width:600px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.box2{
+  background-color: yellowgreen;
+  height: 150px;
+  width: 100%;
+  text-align:center;
+  font-family: cursive;
+  font-size: 25px;
+  line-height: 40px;
+  padding-top: 10px;
+  color:black;
+}
+.box3{
+  background-color: #333;
+  height:550px;
+  width:100%;
+  color:white;
+  font-family:cursive;
+  font-size:40px;
+  padding-top: 10px;
+}
+.box4{
+  background-color: darkgreen;
+}
+.column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+</style>
+<body>
+<div style="background-image: url('https://marketplace.canva.com/EAD29r5HTck/2/0/800w/canva-green-leaves-pattern-zoom-virtual-background-URcKk88dbKI.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height:800px;
+  width:100%;">
+<div id="navbar" >
+  <a href="#">Home</a>
+  <a href="#projects">Projects</a>
+  <a href="#contact">Contact</a>
+  <a href="#">About</a>
+</div>
+
+<h1 id="welcome-section">Welcome to my Page!!!</h1>
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSsUqUAfuvxZ-qkq9j3uZ5f06sa05n5trFj6UaV4h9nKLuU6koc&usqp=CAU" style="width:250px;height:250px; border-radius: 50%; display: block;
+  margin-left: auto;
+  margin-right: auto;">
+<div class="box"> <strong><p style="text-shadow: 5px 5px 6px black;">I am<p style="font-size:55px;text-shadow: 5px 5px 6px black;"><strong>Sushmita DasSharma</strong><p style="text-shadow: 5px 5px 6px black;">Web Developer
+</strong></div>
+
+</div>
+
+<div class="box2" >
+  <strong>Skills</strong><br>
+  1)HTML &nbsp&nbsp  2)CSS &nbsp&nbsp  3)Java  &nbsp&nbsp 4)Python  &nbsp&nbsp 5)Communication Skills  &nbsp&nbsp 6)Problem-solving Ability  &nbsp&nbsp 7)Active Listener  &nbsp&nbsp 8)Creativity  &nbsp&nbsp 9)Critical Thinking
+</div>
+
+<div class="box3" id="projects">
+  <p style="text-align: center;"><strong>Projects<strong><br></p><p style="font-size:20px;text-align:center;">Click the images below to be redirected to projects </p>
+    <div class="row">
+      <div class="column">
+      <a href="https://codepen.io/sushmita444/pen/JjGdeEW" target="_blank"><img src="https://media0.giphy.com/media/2yrVAzO3gjvCdVEmL9/giphy.gif" title="Project 1: Product Landing Page" alt="1" style="width:100%;height:320px;"></a>
+      </div>
+      <div class="column">
+      <a href="#" target="_blank"><img src="https://media0.giphy.com/media/pPd3Tzuc34UpJJvK2F/giphy.gif" alt="2" title="Project 2" style="width:100%;height:320px;"></a>
+      </div>
+      <div class="column">
+      <a href="#" target="_blank"><img src="https://media3.giphy.com/media/PhGkL9wazW0wePD51F/giphy.gif" alt="3" title="Project 3" style="width:100%;height:320px;"></a>
+    </div>
+</div>
+
+<div class="box4" style="height:20px;width:100%;">
+</div>
+
+<div class="box2" id="contact">
+  Connect with me!<br>
+  <a href="#"><image src="https://www.freepnglogos.com/uploads/logo-gmail-png/logo-gmail-png-gmail-icon-download-png-and-vector-1.png" style="width:100px;height:100px;" title="Gmail"></a>
+    <a href="#"><image src="https://www.freepnglogos.com/uploads/instagram-logos-png-images-free-download-2.png" style="width:100px;height:100px;" title="Instagram"></a>
+      <a href="https://www.freecodecamp.org/fcc580d6179-33eb-473c-be19-33b3009374a5" target="_blank"><image src="https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.svg" style="width:100px;height:100px;" title="FreeCodeCamp.org"></a>
+</div>
+</body>
+</html>
